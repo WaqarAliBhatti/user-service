@@ -11,7 +11,7 @@ async function bootstrap() {
     transport: Transport.TCP,  // Specifies that the microservice will use the TCP protocol for communication.
     options: {
       host: 'localhost',  // The hostname where the microservice will be running. Here it's set to 'localhost' for local development.
-      port: 3001,  // The port number on which the microservice will listen for incoming requests. Here it’s set to 3001.
+      port: 3003,  // The port number on which the microservice will listen for incoming requests. Here it’s set to 3001.
     },
   });
 
